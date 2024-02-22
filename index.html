@@ -1,29 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Attendance75</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <main class="container">
-        <h1>Attendance75</h1>
-        <div class="form">
-            <input type="number" id="total_lectures" placeholder="Total Lectures" required>
-            <input type="number" id="attended_lectures" placeholder="Attended Lectures" required>
-            <button id="calculate_btn">Calculate Attendance</button>
-            <div class="result">
-                <h2 id="attendance">Attendance : 78% </h2>
-                <h2 id="needed_lectures">Lectures need to  attend: 4</h2>
-            </div>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="main">
+      <h1>Attendance75</h1>
+      <div class="form">
+        <input
+          type="number"
+          id="total_lectures"
+          placeholder="Total Lectures"
+          required
+        />
+        <input
+          type="number"
+          id="attended_lectures"
+          placeholder="Attended Lectures"
+          required
+        />
+        <button id="calculate_btn">Calculate Attendance</button>
+        <div class="result">
+          <h2 id="attendance">Attendance : 78%</h2>
+          <h2 id="needed_lectures">Lectures need to attend: 4</h2>
         </div>
-        <div class="description">
-            <p>This is a fun app made during boring lecture.</p>
-            <p>This app calculate your attendance and also tells you how many more lectures you need to attend to complete 75% attendance.</p>
-            <p>Find the code <a href="http://" target="_blank" rel="noopener noreferrer">here.</a></p>
-        </div>
+      </div>
+      <div class="description">
+        <p class="text">This is a fun app made during boring lecture.</p>
+        <p class="text">
+          This app calculate your attendance and also tells you how many more
+          lectures you need to attend to complete 75% attendance.
+        </p>
+        <p class="text">
+          Find the code
+          <a href="http://" target="_blank" rel="noopener noreferrer">here.</a>
+        </p>
+      </div>
     </main>
-    <footer>Developed by <a href="http://" target="_blank" rel="noopener noreferrer">Sahil</a></footer>
-</body>
+    <footer class="footer">
+      Developed by
+      <a href="http://" target="_blank" rel="noopener noreferrer">Sahil</a>
+    </footer>
+  </body>
 </html>
