@@ -8,6 +8,10 @@ Attendance75 is a simple web app that helps you calculate your attendance percen
 2. Enter the number of lectures you have attended in the "Attended Lectures" input field.
 3. Click the "Calculate Attendance" button to see your attendance percentage and the number of lectures you need to attend to reach 75% attendance.
 
+## Preview
+!["Preview Image"](1.png)
+!["Preview Image two"](2.png)
+
 ## Live Demo
 
 You can try the live version of Attendance75 [here](https://lectureattendance75.netlify.app/).
